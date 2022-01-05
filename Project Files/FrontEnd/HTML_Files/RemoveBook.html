@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <title>Add Book</title>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../CSS_Files/add_remove.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        <div class="header">
+
+            <div class="left-sidebar"></div>
+
+            <span>
+                <a href="" ><div class="logo"> Remove Book</div></a>
+            </span>
+
+            <nav>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="AdminPage.html"><u>Return to Dashboard</u></a></li>
+                        <li><a href="LOGIN.html" ><u>Logout</u></a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <span class="left-col">
+                <img src="../../Resources/Images/logo.png">
+            </span>
+
+            <div class="row">
+                <div class="center">
+                    <div style="padding-top: 45px; position: relative; left: -30px">
+                        <h3>Fill out the required information to REMOVE A BOOK:</h3>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+
+                    <form class="field" action="../../BackEnd/removebook.php" method="post">
+                         <input type="text" placeholder="Book_Id" Book_Id="Book_Id" name="Book_Id">
+                         
+                         <button type="submit">Remove</button>
+                        
+                         
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

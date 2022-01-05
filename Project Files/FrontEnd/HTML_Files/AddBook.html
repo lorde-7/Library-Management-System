@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <title>Add Book</title>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../CSS_Files/add_remove.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        <div class="header">
+
+            <div class="left-sidebar"></div>
+
+            <span>
+                <a href="" class="logo">Add Book</a>
+            </span>
+
+            <nav>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="AdminPage.html" ><u>Return to Dashboard</u></a></li>
+                        <li><a href="LOGIN.html"><u>Logout</u></a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <span class="left-col">
+                <img src="../../Resources/Images/logo.png">
+            </span>
+
+            <div class="row">
+                <div class="center">
+                    <div style="padding-top: 45px; position: relative; left: -30px">
+                        <h3>Fill out the required informations to ADD A BOOK:</h3>
+                        <br>
+                    </div>
+
+                    <form class="field" action="../../BackEnd/addbook.php" method="post">
+                         <input type="text" placeholder="Book_Id" Book_Id="Book_Id" name="Book_Id">
+                         <input type="text" placeholder="Title" Title="Title" name="Title"> 
+                         <input type="text" placeholder="Author" Author="Author" name="Author">
+                         <input type="text" placeholder="Edition" Edition="Edition" name="Edition">
+                         <input type="text" placeholder="Publisher" Publisher="Publisher" name="Publisher">
+                         <button type="submit">Add</button>
+                        
+                         
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
