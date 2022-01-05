@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <title>Review User</title>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../CSS_Files/review_user.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        <div class="header">
+
+            <div class="left-sidebar"></div>
+
+            <span>
+                <a href="" class="logo">Review User</a>
+            </span>
+
+            <nav>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="AdminPage.html" ><u>Return to Dashboard</u></a></li>
+                        <li><a href="LOGIN.html"><u>Logout</u></a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <span class="left-col">
+                <img src="../../Resources/Images/logo.png">
+            </span>
+
+            <div class="row">
+                <div class="center">
+                    <div style="padding-top: 45px; position: relative; left: -30px">
+                        <h3>Enter the email of the user you wish to review:</h3>
+                        <br>
+                    </div>
+                    
+                    <form class="field" action="../../BackEnd/review_user.php" method="post">
+                         <input type="email" placeholder="Search Here ..." id="UserID" name="search" required />
+                         <button type="submit" name="submit">Search</button>
+                    </form>
+                </div>  
+            </div>
+        </div>
+
+    </body>
+</html>
