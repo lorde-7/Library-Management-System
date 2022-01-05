@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header{
+    min-height: 100vh; 
+    width: 100%;
+    background: #a8a4fa;
+    color: rgb(255, 255, 255);
+    position: absolute;
+ }
+.left-sidebar{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #6C63FF;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    float: right;
+}
+.nav-links{
+    text-align: right;
+    background: #6C63FF;
+    padding: 25px 50px;
+    border-bottom-left-radius: 25px;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+}
+.logo{
+    text-decoration: none;
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-top: 82px;
+    position: absolute;
+    top: 25%;
+    left: 3px;
+    float: left;
+}
+.left-col{
+    display: block;
+    position: absolute;
+}
+.left-col img{
+    height: 200px;
+    width: 307px;
+    cursor: pointer;
+    filter: grayscale(0);
+    transition: filter 1s;
+    float: top;
+}
+.center {
+    position: fixed;
+    top: 45%;
+    left: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding-top: 30px; padding-bottom: 70px;
+    padding-left: 50px; padding-right: 50px;
+    background-color: #6C63FF;
+    border-radius: 15px;
+    height: 45vh;
+    width: 60vw;
+}
+h3{
+    font-size: 50px;
+    font-weight: 250;
+    border: indigo;
+    border-radius: 20%;
+}
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 93.15%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+.borrow_read{
+    display: flex;
+    position: relative;
+    border-radius: 15px;
+    left: 26.5vw;
+    top: 65.7vh;
+    height: 20vh;
+    width: 67vw;
+    background-color: #6C63FF;
+    background-color: #4c46b8;
+}
